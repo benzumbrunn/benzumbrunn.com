@@ -1,0 +1,7 @@
+.component {
+  margin: 1rem;
+}
+
+.image:hover {
+  filter: invert(80%);
+}
