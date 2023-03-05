@@ -4,6 +4,7 @@ import HomeLink from '../components/HomeLink/HomeLink'
 import twitter from '../public/images/twitter.png'
 import github from '../public/images/github.png'
 import telegram from '../public/images/telegram.png'
+import Script from 'next/script'
 
 export default function Home() {
   return (
