@@ -11,6 +11,18 @@ export default function Home() {
       <Head>
         <title>benzumbrunn.com</title>
         <link rel="icon" href="/favicon.ico" />
+        <Script
+          id='google-analytics'
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-C2G48QTB4Y');
+            `,
+          }}
+        />
       </Head>
 
       <main className={styles.main}>
