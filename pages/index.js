@@ -4,7 +4,6 @@ import HomeLink from '../components/HomeLink/HomeLink'
 import twitter from '../public/images/twitter.png'
 import github from '../public/images/github.png'
 import telegram from '../public/images/telegram.png'
-import Script from 'next/script'
 
 export default function Home() {
   return (
@@ -12,18 +11,6 @@ export default function Home() {
       <Head>
         <title>benzumbrunn.com</title>
         <link rel="icon" href="/favicon.ico" />
-        <Script
-          id='google-analytics'
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-C2G48QTB4Y');
-            `,
-          }}
-        />
       </Head>
 
       <main className={styles.main}>
