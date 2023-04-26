@@ -21,14 +21,17 @@ export default function Home() {
           <HomeLink
             link="https://twitter.com/benzumbrunn"
             img={twitter}
+            alt="twitter"
           />
           <HomeLink
             link="https://github.com/benzumbrunn"
             img={github}
+            alt="github"
           />
           <HomeLink
             link="https://t.me/benzumbrunn"
             img={telegram}
+            alt="telegram"
           />
         </div>
       </main>

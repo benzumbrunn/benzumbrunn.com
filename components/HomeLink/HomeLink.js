@@ -8,7 +8,10 @@ export default function HomeLink(props) {
         <Image
           className={styles.image}
           src={props.img}
-          width="80" height="80" />
+          width="80" 
+          height="80" 
+          alt={props.alt}
+        />
       </a>
     </div>
   );
