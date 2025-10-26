@@ -52,7 +52,6 @@ The site is configured with `output: 'export'` in next.config.js, which generate
   - `images/` - Social media icons (imported in app/page.js)
   - `robots.txt` - SEO configuration
   - `favicon.ico`
-- `fonts/` - Custom font files (ArchitectsDaughter, NanumMyeongjo variants)
 - `out/` - Generated static export (created by `npm run build`, gitignored)
 
 ### Component Patterns
