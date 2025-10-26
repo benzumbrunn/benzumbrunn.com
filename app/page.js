@@ -1,0 +1,37 @@
+import styles from '../styles/Home.module.css'
+import HomeLink from '../components/HomeLink/HomeLink'
+import twitter from '../public/images/twitter.png'
+import github from '../public/images/github.png'
+import telegram from '../public/images/telegram.png'
+
+export default function Home() {
+  return (
+    <div className={styles.container}>
+      <main className={styles.main}>
+        <h1 className={styles.title}>
+          Ben Zumbrunn
+        </h1>
+        <div className={styles.links}>
+          <HomeLink
+            link="https://twitter.com/benzumbrunn"
+            img={twitter}
+            alt="twitter"
+          />
+          <HomeLink
+            link="https://github.com/benzumbrunn"
+            img={github}
+            alt="github"
+          />
+          <HomeLink
+            link="https://t.me/benzumbrunn"
+            img={telegram}
+            alt="telegram"
+          />
+        </div>
+      </main>
+
+      <footer className={styles.footer}>
+      </footer>
+    </div>
+  )
+}
