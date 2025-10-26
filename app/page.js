@@ -49,7 +49,6 @@ export default function Home() {
         </div>
 
         <footer className={styles.footer}>
-          Test
         </footer>
       </main>
     </div>
